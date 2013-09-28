@@ -559,7 +559,7 @@ import org.mockito.verification.VerificationWithTimeout;
  * <h3 id="14">14. Changing <a class="meaningful_link" href="#defaultreturn">default return values of unstubbed invocations</a> (Since 1.7)</h3>
  *
  * You can create a mock with specified strategy for its return values.
- * It's quite advanced feature and typically you don't need it to write decent tests.
+ * It's quite an advanced feature and typically you don't need it to write decent tests.
  * However, it can be helpful for working with <b>legacy systems</b>.
  * <p>
  * It is the default answer so it will be used <b>only when you don't</b> stub the method call.
@@ -1169,7 +1169,7 @@ public class Mockito extends Matchers {
      * There's no point in mainting exactly the same interfaces.
      * <p>
      * Creates mock with a specified strategy for its return values. 
-     * It's quite advanced feature and typically you don't need it to write decent tests.
+     * It's quite an advanced feature and typically you don't need it to write decent tests.
      * However it can be helpful when working with legacy systems.
      * <p>
      * Obviously return values are used only when you don't stub the method call.
@@ -1195,7 +1195,7 @@ public class Mockito extends Matchers {
     
     /**
      * Creates mock with a specified strategy for its answers to interactions. 
-     * It's quite advanced feature and typically you don't need it to write decent tests.
+     * It's quite an advanced feature and typically you don't need it to write decent tests.
      * However it can be helpful when working with legacy systems.
      * <p>
      * It is the default answer so it will be used <b>only when you don't</b> stub the method call.
