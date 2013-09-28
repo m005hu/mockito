@@ -950,7 +950,7 @@ public class Mockito extends Matchers {
      * This implementation can be helpful when working with legacy code.
      * Unstubbed methods often return null. If your code uses the object returned by an unstubbed call you get a NullPointerException.
      * This implementation of Answer <b>returns SmartNull instead of null</b>.
-     * <code>SmartNull</code> gives nicer exception message than NPE because it points out the line where unstubbed method was called. You just click on the stack trace.
+     * <code>SmartNull</code> gives a nicer exception message than NPE because it points out the line where unstubbed method was called. You just click on the stack trace.
      * <p>
      * <code>ReturnsSmartNulls</code> first tries to return ordinary return values (see {@link ReturnsMoreEmptyValues})
      * then it tries to return SmartNull. If the return type is final then plain null is returned.
