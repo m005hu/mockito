@@ -188,8 +188,8 @@ import org.mockito.verification.VerificationWithTimeout;
  * <p>
  * Matcher methods like <code>anyObject()</code>, <code>eq()</code> <b>do not</b> return matchers.
  * Internally, they record a matcher on a stack and return a dummy value (usually null).
- * This implementation is due static type safety imposed by java compiler.
- * The consequence is that you cannot use <code>anyObject()</code>, <code>eq()</code> methods outside of verified/stubbed method.
+ * This implementation is due to the static type safety imposed by the java compiler.
+ * The consequence is that you cannot use <code>anyObject()</code> or <code>eq()</code> methods outside of a verified/stubbed method.
  *
  *
  *
