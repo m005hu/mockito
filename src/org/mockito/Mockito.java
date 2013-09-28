@@ -242,7 +242,7 @@ import org.mockito.verification.VerificationWithTimeout;
  *   mockedList.clear();
  * </code></pre>
  * 
- * Read more about doThrow|doAnswer family of methods in paragraph 12.
+ * Read more about the doThrow|doAnswer family of methods in paragraph 12.
  * <p>
  * Initially, {@link Mockito#stubVoid(Object)} was used for stubbing voids.
  * Currently <code>stubVoid()</code> is deprecated in favor of {@link Mockito#doThrow(Throwable)}.
