@@ -290,8 +290,8 @@ import org.mockito.verification.VerificationWithTimeout;
  * interactions</b> one-by-one but only those that you are interested in
  * testing in order.
  * <p>
- * Also, you can create InOrder object passing only mocks that are relevant for
- * in-order verification.
+ * Also, when creating an InOrder object, you only need to pass the mocks who's order you want to compare.
+ * Any mocks who's order are irrelevant can be omitted.
  *
  *
  *
@@ -1837,7 +1837,8 @@ public class Mockito extends Matchers {
      * Verification in order is flexible - <b>you don't have to verify all interactions</b> one-by-one
      * but only those that you are interested in testing in order.
      * <p>
-     * Also, you can create InOrder object passing only mocks that are relevant for in-order verification.
+     * Also, when creating an InOrder object, you only need to pass the mocks who's order you want to compare.
+     * Any mocks who's order is irrelevant can be omitted.
      * <p>
      * <code>InOrder</code> verification is 'greedy'. You will hardly every notice it but
      * if you want to find out more search for 'greedy' on the Mockito 
