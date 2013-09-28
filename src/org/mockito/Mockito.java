@@ -754,12 +754,12 @@ import org.mockito.verification.VerificationWithTimeout;
  * <li>&#064;{@link Captor} simplifies creation of {@link ArgumentCaptor} 
  * - useful when the argument to capture is a nasty generic class and you want to avoid compiler warnings
  * <li>&#064;{@link Spy} - you can use it instead {@link Mockito#spy(Object)}. 
- * <li>&#064;{@link InjectMocks} - injects mock or spy fields into tested object automatically.
+ * <li>&#064;{@link InjectMocks} - injects mock or spy fields into the tested object automatically.
  * </ul>
  *
  * <p>
  * Note that &#064;{@link InjectMocks} can only be used in combination with the &#064;{@link Spy} annotation, it means
- * that Mockito will inject mocks in a partial mock under testing. As a remainder, please read point 16 about partial mocks.
+ * that Mockito will inject mocks in a partial mock under testing. As a reminder, please read point 16 about partial mocks.
  *
  * <p>
  * All new annotations are <b>*only*</b> processed on {@link MockitoAnnotations#initMocks(Object)}.
