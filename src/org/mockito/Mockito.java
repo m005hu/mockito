@@ -918,7 +918,7 @@ import org.mockito.verification.VerificationWithTimeout;
  *
  *
  * <h3 id="28">28. (**New**) <a class="meaningful_link" href="#mock_maker_plugin"><code>MockMaker</code> API</a> (Since 1.9.5)</h3>
- * <p>Driven by requirements and patches from Google Android guys Mockito now offers an extension point
+ * <p>Driven by requirements and patches from the Google Android guys, Mockito now offers an extension point
  *   that allows replacing the proxy generation engine. By default, Mockito uses cglib to create dynamic proxies.
  * <p>The extension point is for advanced users that want to extend Mockito. For example, it is now possible
  *   to use Mockito for Android testing with a help of dexmaker.
